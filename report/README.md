@@ -20,6 +20,9 @@ This report provides an in-depth analysis of the FigmaToCode plugin, covering it
 - **[Getting Started](./getting-started.md)** - Guide for developers who want to contribute or understand the codebase
 - **[Plugin Settings](./plugin-settings.md)** - All available settings and configuration options
 
+### 🆚 Comparison & Alternatives
+- **[MCP Comparison](./mcp-comparison.md)** - FigmaToCode vs Figma MCP Server: detailed comparison, use cases, and when to use each
+
 ## Quick Summary
 
 **FigmaToCode** is a production-grade Figma plugin that converts design files into code for multiple frameworks including HTML, React, Tailwind, Flutter, SwiftUI, and Jetpack Compose.

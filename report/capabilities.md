@@ -13,6 +13,8 @@ This document outlines all the features and capabilities of the FigmaToCode plug
 
 ## Core Features
 
+> **Note**: FigmaToCode uses **deterministic, rule-based algorithms** (not AI). For a comparison with AI-based approaches like Figma's MCP Server, see **[MCP Comparison](./mcp-comparison.md)**.
+
 ### 1. Multi-Framework Code Generation
 
 FigmaToCode can convert designs into code for multiple frameworks:

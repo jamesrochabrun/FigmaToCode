@@ -524,6 +524,38 @@ Stack(
 - **Accessibility**: Add ARIA attributes manually
 - **Performance**: Optimize generated code as needed
 
+## Alternatives & When to Consider Them
+
+While FigmaToCode is excellent for many use cases, there are scenarios where alternative approaches might be better suited:
+
+### AI-Based Approaches (Figma MCP Server)
+
+If FigmaToCode's limitations are blocking your workflow, consider **AI-based design-to-code** tools like Figma's MCP Server:
+
+**When to consider AI approaches:**
+- ✅ You have a mature design system with Code Connect
+- ✅ You need to use custom/uncommon frameworks
+- ✅ You need complex logic generation (forms, state, API integration)
+- ✅ Your code must match existing codebase patterns
+- ✅ Budget allows for subscriptions ($30-75/month)
+- ✅ You already use AI coding tools (Cursor, Copilot, etc.)
+
+**Trade-offs:**
+- More flexible and intelligent
+- Can generate any framework
+- Understands context better
+- BUT: Costs money, requires setup, output varies
+
+**Learn more**: See **[MCP Comparison](./mcp-comparison.md)** for detailed comparison.
+
+### Hybrid Approach
+
+You can also use **both** strategically:
+1. Generate initial code with FigmaToCode (fast, free, predictable)
+2. Refine with AI tools (add logic, match patterns, improve structure)
+
+This combines the speed and cost-effectiveness of FigmaToCode with the intelligence of AI.
+
 ---
 
 While FigmaToCode handles many common design-to-code scenarios, understanding these limitations helps set realistic expectations and guides better design practices in Figma for optimal code generation.
