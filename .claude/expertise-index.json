@@ -1,0 +1,271 @@
+{
+  "expertise_name": "FigmaToCode Expert",
+  "version": "1.0.0",
+  "description": "Comprehensive expertise on FigmaToCode plugin - architecture, capabilities, frameworks, and best practices",
+  "topics": {
+    "overview": {
+      "description": "High-level understanding of what FigmaToCode is and does",
+      "difficulty": "beginner",
+      "file": "report/README.md",
+      "sections": ["Quick Summary", "Key Metrics"],
+      "related_topics": ["capabilities", "platform-support"],
+      "use_when": ["user asks 'what is FigmaToCode'", "needs introduction", "wants overview"]
+    },
+    "architecture": {
+      "description": "System design, monorepo structure, design patterns",
+      "difficulty": "advanced",
+      "file": "report/architecture.md",
+      "sections": [
+        "Monorepo Structure",
+        "Backend Architecture",
+        "Plugin Architecture",
+        "Design Patterns",
+        "Data Flow"
+      ],
+      "related_topics": ["technology-stack", "conversion-pipeline"],
+      "use_when": ["needs to understand codebase structure", "wants to contribute", "debugging issues", "adding features"]
+    },
+    "capabilities": {
+      "description": "What FigmaToCode can do - features and functionality",
+      "difficulty": "beginner",
+      "file": "report/capabilities.md",
+      "sections": [
+        "Core Features",
+        "Conversion Capabilities",
+        "Output Formats",
+        "Design System Support",
+        "Advanced Features"
+      ],
+      "related_topics": ["limitations", "frameworks"],
+      "use_when": ["user asks 'what can it do'", "evaluating the tool", "checking feature support"]
+    },
+    "limitations": {
+      "description": "Known constraints and unsupported features",
+      "difficulty": "beginner",
+      "file": "report/limitations.md",
+      "sections": [
+        "Design Limitations",
+        "Framework-Specific Limitations",
+        "Visual Property Limitations",
+        "Performance Limitations",
+        "Workarounds & Best Practices"
+      ],
+      "related_topics": ["capabilities", "mcp-comparison"],
+      "use_when": ["feature not working as expected", "needs workarounds", "evaluating trade-offs"]
+    },
+    "platform-support": {
+      "description": "What platforms and frameworks are supported",
+      "difficulty": "beginner",
+      "file": "report/platform-support.md",
+      "sections": [
+        "Web Platform Support",
+        "Mobile Platform Support",
+        "Desktop Platform Support",
+        "Cross-Platform Summary"
+      ],
+      "related_topics": ["frameworks", "capabilities"],
+      "use_when": ["user asks about web/mobile/desktop support", "choosing framework", "platform compatibility questions"]
+    },
+    "conversion-pipeline": {
+      "description": "How Figma designs are converted to code step-by-step",
+      "difficulty": "intermediate",
+      "file": "report/conversion-pipeline.md",
+      "sections": [
+        "Pipeline Overview",
+        "Stage 1: Node Export",
+        "Stage 2: Node Processing",
+        "Stage 3: AltNode Creation",
+        "Stage 4: Code Generation",
+        "Stage 5: Post-Processing"
+      ],
+      "related_topics": ["architecture", "algorithms"],
+      "use_when": ["debugging conversion issues", "understanding how conversion works", "optimizing output"]
+    },
+    "frameworks": {
+      "description": "Framework-specific implementations and comparisons",
+      "difficulty": "intermediate",
+      "file": "report/frameworks.md",
+      "sections": [
+        "HTML & CSS",
+        "Tailwind CSS",
+        "Flutter",
+        "SwiftUI",
+        "Jetpack Compose",
+        "Framework Comparison"
+      ],
+      "related_topics": ["capabilities", "platform-support"],
+      "use_when": ["choosing framework", "framework-specific questions", "comparing frameworks", "framework output issues"]
+    },
+    "algorithms": {
+      "description": "Key algorithms used for conversion",
+      "difficulty": "advanced",
+      "file": "report/algorithms.md",
+      "sections": [
+        "Icon Detection Algorithm",
+        "Layout Detection",
+        "Position Calculation with Rotation",
+        "Color Conversion",
+        "Nearest Value Matching",
+        "SVG Embedding",
+        "Text Segment Extraction"
+      ],
+      "related_topics": ["conversion-pipeline", "architecture"],
+      "use_when": ["debugging conversion logic", "understanding why output looks certain way", "contributing to algorithms"]
+    },
+    "technology-stack": {
+      "description": "Technologies, libraries, and tools used",
+      "difficulty": "intermediate",
+      "file": "report/technology-stack.md",
+      "sections": [
+        "Core Technologies",
+        "Build & Development Tools",
+        "Frontend Stack",
+        "Backend Stack",
+        "Code Quality & Testing"
+      ],
+      "related_topics": ["architecture", "getting-started"],
+      "use_when": ["setting up development environment", "understanding dependencies", "evaluating tech choices"]
+    },
+    "getting-started": {
+      "description": "Developer onboarding and contribution guide",
+      "difficulty": "intermediate",
+      "file": "report/getting-started.md",
+      "sections": [
+        "Prerequisites",
+        "Project Setup",
+        "Development Workflow",
+        "Making Changes",
+        "Testing Your Changes",
+        "Adding a New Framework"
+      ],
+      "related_topics": ["architecture", "technology-stack"],
+      "use_when": ["wants to contribute", "setting up for development", "adding new features"]
+    },
+    "plugin-settings": {
+      "description": "All configuration options and settings",
+      "difficulty": "beginner",
+      "file": "report/plugin-settings.md",
+      "sections": [
+        "Framework Selection",
+        "General Settings",
+        "Tailwind-Specific Settings",
+        "Framework Generation Modes"
+      ],
+      "related_topics": ["capabilities", "frameworks"],
+      "use_when": ["configuring plugin", "customizing output", "settings not working as expected"]
+    },
+    "mcp-comparison": {
+      "description": "Comparison with Figma MCP Server and when to use each",
+      "difficulty": "intermediate",
+      "file": "report/mcp-comparison.md",
+      "sections": [
+        "What is Figma MCP Server",
+        "How They Work",
+        "Feature Comparison",
+        "Value Proposition",
+        "Use Case Scenarios",
+        "Which Should You Choose"
+      ],
+      "related_topics": ["limitations", "capabilities"],
+      "use_when": ["evaluating alternatives", "deciding between tools", "understanding AI vs rule-based approaches"]
+    }
+  },
+  "progressive_disclosure_levels": {
+    "level_1_overview": {
+      "description": "Quick answer with link to more details",
+      "topics_to_surface": ["overview", "capabilities"],
+      "max_detail": "2-3 sentences + link to relevant doc"
+    },
+    "level_2_summary": {
+      "description": "Summary of relevant section",
+      "topics_to_surface": "matched topic",
+      "max_detail": "Key points from relevant section + code examples if applicable"
+    },
+    "level_3_detailed": {
+      "description": "Full section content",
+      "topics_to_surface": "matched topic + related topics",
+      "max_detail": "Complete section with examples, tables, and cross-references"
+    },
+    "level_4_deep_dive": {
+      "description": "Multiple related topics with comprehensive context",
+      "topics_to_surface": "all related topics",
+      "max_detail": "Full context across multiple documentation files"
+    }
+  },
+  "query_patterns": {
+    "what_is": {
+      "example": "What is FigmaToCode?",
+      "route_to": "overview",
+      "disclosure_level": "level_1_overview"
+    },
+    "how_to": {
+      "example": "How to add a new framework?",
+      "route_to": "getting-started",
+      "disclosure_level": "level_3_detailed",
+      "specific_section": "Adding a New Framework"
+    },
+    "why_does": {
+      "example": "Why does rotation not work correctly?",
+      "route_to": "algorithms",
+      "disclosure_level": "level_3_detailed",
+      "specific_section": "Position Calculation with Rotation"
+    },
+    "can_it": {
+      "example": "Can it generate Vue components?",
+      "route_to": "capabilities",
+      "disclosure_level": "level_2_summary",
+      "fallback_to": "limitations"
+    },
+    "comparison": {
+      "example": "FigmaToCode vs Figma MCP?",
+      "route_to": "mcp-comparison",
+      "disclosure_level": "level_2_summary"
+    },
+    "debugging": {
+      "example": "Colors are not converting correctly",
+      "route_to": "algorithms",
+      "disclosure_level": "level_3_detailed",
+      "specific_section": "Color Conversion"
+    },
+    "configuration": {
+      "example": "How to configure Tailwind prefix?",
+      "route_to": "plugin-settings",
+      "disclosure_level": "level_2_summary",
+      "specific_section": "Custom Tailwind Prefix"
+    }
+  },
+  "common_workflows": {
+    "evaluating_tool": {
+      "description": "User evaluating if FigmaToCode fits their needs",
+      "progressive_path": [
+        "overview → capabilities → limitations → mcp-comparison"
+      ],
+      "start_with": "overview",
+      "disclosure_level": "level_1_overview then expand as needed"
+    },
+    "contributing": {
+      "description": "Developer wants to contribute",
+      "progressive_path": [
+        "overview → architecture → getting-started → technology-stack"
+      ],
+      "start_with": "getting-started",
+      "disclosure_level": "level_2_summary then level_3_detailed"
+    },
+    "debugging_conversion": {
+      "description": "Output doesn't match expectations",
+      "progressive_path": [
+        "conversion-pipeline → algorithms → limitations"
+      ],
+      "start_with": "conversion-pipeline",
+      "disclosure_level": "level_3_detailed"
+    },
+    "choosing_framework": {
+      "description": "Deciding which framework to use",
+      "progressive_path": [
+        "frameworks → platform-support → capabilities"
+      ],
+      "start_with": "frameworks",
+      "disclosure_level": "level_2_summary"
+    }
+  }
+}
